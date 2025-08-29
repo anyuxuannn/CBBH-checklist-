@@ -2,9 +2,16 @@
 
 ## Check for sensitive data exposure 
   - Right click on web page -> Select View page source. 
-  - Check if there are any low-hanging fruits such as credentials, hashes, or other sensitive data in comments of the source code.
+  - Identify any low-hanging fruits such as credentials, hashes, or other sensitive data in comments of the source code. Other valuable information include exposed links, directories, 
+  user information, debugging parameters, hidden functionalities, etc. 
   HTML comments use this syntax: <--! comment -->
 
+## Check for HTML injection 
+- Identify input fields such as a search box, a login form, a signup form, a contact form, a comment section, etc. 
+- Inject basic payloads using different types of tags. Check whether your input was processed as HTML code or not. 
+
 ## Check for Cross-site scripting 
+
+
   
   
