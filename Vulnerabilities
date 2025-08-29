@@ -1,0 +1,10 @@
+# Client-side vulnerabilities 
+
+## Check for sensitive data exposure 
+  - Right click on web page -> Select View page source. 
+  - Check if there are any low-hanging fruits such as credentials, hashes, or other sensitive data in comments of the source code.
+  HTML comments use this syntax: <--! comment -->
+
+## Check for Cross-site scripting 
+  
+  
